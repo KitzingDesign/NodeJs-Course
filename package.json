@@ -4,8 +4,14 @@
   "description": "Node Js course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "Jakob Kitzing",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0"
+  }
 }
