@@ -1,0 +1,4 @@
+20240827	17:04:52	8c3dc8a3-134f-42ef-a7be-249e557bdd3a	/new-page.html	GET
+20240827	17:04:52	1df652c4-efde-4930-88d9-62306f9f8479	/css/style.css	GET
+20240827	17:04:52	04c17ba4-ac21-45f6-9862-799aca3dd1eb	/img/img1.jpg	GET
+20240827	17:04:52	a8c7f07c-05a6-4f46-a4c7-e0213c5e4d1e	/favicon.ico	GET
