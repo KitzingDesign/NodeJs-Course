@@ -12,7 +12,7 @@ const logEvents = async (message, logName) => {
   console.log(logItem);
 
   try {
-    const logsDir = path.join(__dirname, "logs");
+    const logsDir = path.join(__dirname, "..", "logs");
 
     // Check if the logs directory exists, and create it if not
     if (!fs.existsSync(logsDir)) {
@@ -25,5 +25,10 @@ const logEvents = async (message, logName) => {
     console.error(err);
   }
 };
+const logger = (req, res, next) => {
+  logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, "reqLog.txt");
+  console.log(`${req.method} ${req.path}`);
+  next();
+};
 
-module.exports = logEvents;
+module.exports = { logger, logEvents };
