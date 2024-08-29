@@ -20,3 +20,5 @@
 20240828	16:11:20	09aba827-3908-44c4-ae83-fbe6f0b0f6e9	ReferenceError: request is not defined
 20240828	16:11:25	efa9d642-228e-4900-b05c-1e2d5dda613e	SyntaxError: Expected property name or '}' in JSON at position 1
 20240828	16:12:51	ae546971-6a26-4fc8-bdd3-88a897b5674f	ReferenceError: request is not defined
+20240828	18:27:41	77eacd8c-c72b-471c-be86-e32d36e58326	TypeError: Cannot read properties of undefined (reading 'json')
+20240828	18:32:31	d855b9bd-ed5e-45ca-8b6c-8a8ba4788619	TypeError: Cannot read properties of undefined (reading 'json')
